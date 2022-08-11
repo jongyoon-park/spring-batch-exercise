@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 @RequiredArgsConstructor
 @Configuration
 public class SimpleJobConfig {
-   /* private final JobBuilderFactory jobBuilderFactory;
+    private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
 
     @Bean
@@ -46,7 +46,5 @@ public class SimpleJobConfig {
                     return RepeatStatus.FINISHED;
                 })
                 .build();
-    }*/
-
-
+    }
 }
